@@ -1,0 +1,5 @@
+@include('fontend.layouts.header') 
+@include('fontend.layouts.navi')
+@include('fontend.layouts.left')
+	@yield('content')
+@include('fontend.layouts.footer')
